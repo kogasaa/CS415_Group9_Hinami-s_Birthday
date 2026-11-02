@@ -26,7 +26,6 @@ Each folder has its own README: what's inside, how others use it, which values c
 2. Only Bingkun edits `Core` and `Maps/Main`. Need a change? Ask in Discord.
 3. Test only in your own test map (`Maps/Test\\\_YourName`). Don't place anything in `Main`.
 4. Never move or rename someone else's assets. Moving assets in Unreal leaves redirectors, which cause conflicts and broken references.
-5. Don't edit the template assets. Build your own versions inside this folder.
 
 ## Git rules
 
