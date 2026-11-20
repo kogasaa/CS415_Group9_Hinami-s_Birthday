@@ -1,0 +1,84 @@
+Begin Object Class=/Script/UMG.Image Name="Panel"
+ColorAndOpacity=(R=0.043,G=0.026,B=0.066,A=0.98)
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="Heading"
+Text=NSLOCTEXT("HinamiMenu","Heading","AUDIO")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=32)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.50,B=0.68,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="MasterLabel"
+Text=NSLOCTEXT("HinamiMenu","MasterLabel","Master Volume")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=21)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.94,B=0.89,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.Slider Name="MasterVolume"
+Value=1.0
+bIsVariable=True
+End Object
+Begin Object Class=/Script/UMG.Button Name="Back"
+bIsVariable=True
+bIsEnabled=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="BackLabel"
+Text=NSLOCTEXT("HinamiMenu","BackLabel","Back")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=19)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.94,B=0.89,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.CanvasPanel Name="AudioSettings"
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_0"
+ End Object
+ Begin Object Name="Layout_0"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.32,Y=0.23),Maximum=(X=0.68,Y=0.77)))
+ Parent=CanvasPanel'AudioSettings'
+ Content=Image'Panel'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_1"
+ End Object
+ Begin Object Name="Layout_1"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.36,Y=0.29),Maximum=(X=0.64,Y=0.39)))
+ Parent=CanvasPanel'AudioSettings'
+ Content=TextBlock'Heading'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_2"
+ End Object
+ Begin Object Name="Layout_2"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.36,Y=0.43),Maximum=(X=0.64,Y=0.51)))
+ Parent=CanvasPanel'AudioSettings'
+ Content=TextBlock'MasterLabel'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_3"
+ End Object
+ Begin Object Name="Layout_3"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.36,Y=0.51),Maximum=(X=0.64,Y=0.57)))
+ Parent=CanvasPanel'AudioSettings'
+ Content=Slider'MasterVolume'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_4"
+ End Object
+ Begin Object Name="Layout_4"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.36,Y=0.62),Maximum=(X=0.49,Y=0.7)))
+ Parent=CanvasPanel'AudioSettings'
+ Content=Button'Back'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_5"
+ End Object
+ Begin Object Name="Layout_5"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.38,Y=0.635),Maximum=(X=0.49,Y=0.7)))
+ Parent=CanvasPanel'AudioSettings'
+ Content=TextBlock'BackLabel'
+ End Object
+ Slots(0)=CanvasPanelSlot'Layout_0'
+ Slots(1)=CanvasPanelSlot'Layout_1'
+ Slots(2)=CanvasPanelSlot'Layout_2'
+ Slots(3)=CanvasPanelSlot'Layout_3'
+ Slots(4)=CanvasPanelSlot'Layout_4'
+ Slots(5)=CanvasPanelSlot'Layout_5'
+ Visibility=SelfHitTestInvisible
+End Object

@@ -1,0 +1,222 @@
+Begin Object Class=/Script/UMG.Image Name="Panel"
+ColorAndOpacity=(R=0.043,G=0.026,B=0.066,A=0.98)
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="Heading"
+Text=NSLOCTEXT("HinamiMenu","Heading","HINAMI")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=34)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.50,B=0.68,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.Image Name="Portrait"
+Brush=(ResourceObject="/Script/Engine.Texture2D'/Game/Player/hinami-export.hinami-export'")
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="HPLabel"
+Text=NSLOCTEXT("HinamiMenu","HPLabel","HP")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=21)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.50,B=0.68,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="HPValue"
+Text=NSLOCTEXT("HinamiMenu","HPValue","--")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=21)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.94,B=0.89,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="LevelLabel"
+Text=NSLOCTEXT("HinamiMenu","LevelLabel","Level")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=21)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.50,B=0.68,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="LevelValue"
+Text=NSLOCTEXT("HinamiMenu","LevelValue","--")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=21)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.94,B=0.89,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="EXPLabel"
+Text=NSLOCTEXT("HinamiMenu","EXPLabel","EXP")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=21)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.50,B=0.68,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="EXPValue"
+Text=NSLOCTEXT("HinamiMenu","EXPValue","--")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=21)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.94,B=0.89,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="AmmoLabel"
+Text=NSLOCTEXT("HinamiMenu","AmmoLabel","Ammo")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=21)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.50,B=0.68,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="AmmoValue"
+Text=NSLOCTEXT("HinamiMenu","AmmoValue","--")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=21)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.94,B=0.89,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="WeaponsLabel"
+Text=NSLOCTEXT("HinamiMenu","WeaponsLabel","Weapons")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=21)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.50,B=0.68,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="WeaponsValue"
+Text=NSLOCTEXT("HinamiMenu","WeaponsValue","--")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=21)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.94,B=0.89,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="ItemsLabel"
+Text=NSLOCTEXT("HinamiMenu","ItemsLabel","Items")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=21)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.50,B=0.68,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="ItemsValue"
+Text=NSLOCTEXT("HinamiMenu","ItemsValue","--")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=21)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.94,B=0.89,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.CanvasPanel Name="CharacterPanel"
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_0"
+ End Object
+ Begin Object Name="Layout_0"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.14,Y=0.15),Maximum=(X=0.86,Y=0.85)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=Image'Panel'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_1"
+ End Object
+ Begin Object Name="Layout_1"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.19,Y=0.2),Maximum=(X=0.46,Y=0.29)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=TextBlock'Heading'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_2"
+ End Object
+ Begin Object Name="Layout_2"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.18,Y=0.34),Maximum=(X=0.43,Y=0.71)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=Image'Portrait'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_3"
+ End Object
+ Begin Object Name="Layout_3"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.48,Y=0.28),Maximum=(X=0.61,Y=0.34)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=TextBlock'HPLabel'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_4"
+ End Object
+ Begin Object Name="Layout_4"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.62,Y=0.28),Maximum=(X=0.84,Y=0.34)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=TextBlock'HPValue'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_5"
+ End Object
+ Begin Object Name="Layout_5"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.48,Y=0.35500000000000004),Maximum=(X=0.61,Y=0.41500000000000004)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=TextBlock'LevelLabel'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_6"
+ End Object
+ Begin Object Name="Layout_6"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.62,Y=0.35500000000000004),Maximum=(X=0.84,Y=0.41500000000000004)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=TextBlock'LevelValue'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_7"
+ End Object
+ Begin Object Name="Layout_7"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.48,Y=0.43000000000000005),Maximum=(X=0.61,Y=0.49000000000000005)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=TextBlock'EXPLabel'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_8"
+ End Object
+ Begin Object Name="Layout_8"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.62,Y=0.43000000000000005),Maximum=(X=0.84,Y=0.49000000000000005)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=TextBlock'EXPValue'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_9"
+ End Object
+ Begin Object Name="Layout_9"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.48,Y=0.505),Maximum=(X=0.61,Y=0.565)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=TextBlock'AmmoLabel'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_10"
+ End Object
+ Begin Object Name="Layout_10"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.62,Y=0.505),Maximum=(X=0.84,Y=0.565)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=TextBlock'AmmoValue'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_11"
+ End Object
+ Begin Object Name="Layout_11"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.48,Y=0.5800000000000001),Maximum=(X=0.61,Y=0.6400000000000001)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=TextBlock'WeaponsLabel'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_12"
+ End Object
+ Begin Object Name="Layout_12"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.62,Y=0.5800000000000001),Maximum=(X=0.84,Y=0.6400000000000001)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=TextBlock'WeaponsValue'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_13"
+ End Object
+ Begin Object Name="Layout_13"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.48,Y=0.655),Maximum=(X=0.61,Y=0.7150000000000001)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=TextBlock'ItemsLabel'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_14"
+ End Object
+ Begin Object Name="Layout_14"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.62,Y=0.655),Maximum=(X=0.84,Y=0.7150000000000001)))
+ Parent=CanvasPanel'CharacterPanel'
+ Content=TextBlock'ItemsValue'
+ End Object
+ Slots(0)=CanvasPanelSlot'Layout_0'
+ Slots(1)=CanvasPanelSlot'Layout_1'
+ Slots(2)=CanvasPanelSlot'Layout_2'
+ Slots(3)=CanvasPanelSlot'Layout_3'
+ Slots(4)=CanvasPanelSlot'Layout_4'
+ Slots(5)=CanvasPanelSlot'Layout_5'
+ Slots(6)=CanvasPanelSlot'Layout_6'
+ Slots(7)=CanvasPanelSlot'Layout_7'
+ Slots(8)=CanvasPanelSlot'Layout_8'
+ Slots(9)=CanvasPanelSlot'Layout_9'
+ Slots(10)=CanvasPanelSlot'Layout_10'
+ Slots(11)=CanvasPanelSlot'Layout_11'
+ Slots(12)=CanvasPanelSlot'Layout_12'
+ Slots(13)=CanvasPanelSlot'Layout_13'
+ Slots(14)=CanvasPanelSlot'Layout_14'
+ Visibility=SelfHitTestInvisible
+End Object

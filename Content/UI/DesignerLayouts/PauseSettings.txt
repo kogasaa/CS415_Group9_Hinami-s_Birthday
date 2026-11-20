@@ -1,0 +1,111 @@
+Begin Object Class=/Script/UMG.Image Name="Panel"
+ColorAndOpacity=(R=0.043,G=0.026,B=0.066,A=0.98)
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="Heading"
+Text=NSLOCTEXT("HinamiMenu","Heading","PAUSED")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=32)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.50,B=0.68,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.Button Name="MainMenu"
+bIsVariable=True
+bIsEnabled=False
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="MainMenuLabel"
+Text=NSLOCTEXT("HinamiMenu","MainMenuLabel","Return to Main Menu")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=19)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.94,B=0.89,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.Button Name="Restart"
+bIsVariable=True
+bIsEnabled=False
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="RestartLabel"
+Text=NSLOCTEXT("HinamiMenu","RestartLabel","Restart")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=19)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.94,B=0.89,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.Button Name="Audio"
+bIsVariable=True
+bIsEnabled=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="AudioLabel"
+Text=NSLOCTEXT("HinamiMenu","AudioLabel","Audio")
+Font=(FontObject="/Script/Engine.Font'/Engine/EngineFonts/Roboto.Roboto'",TypefaceFontName="Bold",Size=19)
+ColorAndOpacity=(SpecifiedColor=(R=1,G=0.94,B=0.89,A=1),ColorUseRule=UseColor_Specified)
+bIsVariable=True
+Visibility=HitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.CanvasPanel Name="PauseSettings"
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_0"
+ End Object
+ Begin Object Name="Layout_0"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.32,Y=0.18),Maximum=(X=0.68,Y=0.82)))
+ Parent=CanvasPanel'PauseSettings'
+ Content=Image'Panel'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_1"
+ End Object
+ Begin Object Name="Layout_1"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.36,Y=0.23),Maximum=(X=0.64,Y=0.32)))
+ Parent=CanvasPanel'PauseSettings'
+ Content=TextBlock'Heading'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_2"
+ End Object
+ Begin Object Name="Layout_2"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.36,Y=0.36),Maximum=(X=0.64,Y=0.44)))
+ Parent=CanvasPanel'PauseSettings'
+ Content=Button'MainMenu'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_3"
+ End Object
+ Begin Object Name="Layout_3"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.38,Y=0.374),Maximum=(X=0.63,Y=0.44)))
+ Parent=CanvasPanel'PauseSettings'
+ Content=TextBlock'MainMenuLabel'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_4"
+ End Object
+ Begin Object Name="Layout_4"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.36,Y=0.47),Maximum=(X=0.64,Y=0.5499999999999999)))
+ Parent=CanvasPanel'PauseSettings'
+ Content=Button'Restart'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_5"
+ End Object
+ Begin Object Name="Layout_5"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.38,Y=0.484),Maximum=(X=0.63,Y=0.5499999999999999)))
+ Parent=CanvasPanel'PauseSettings'
+ Content=TextBlock'RestartLabel'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_6"
+ End Object
+ Begin Object Name="Layout_6"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.36,Y=0.58),Maximum=(X=0.64,Y=0.6599999999999999)))
+ Parent=CanvasPanel'PauseSettings'
+ Content=Button'Audio'
+ End Object
+ Begin Object Class=/Script/UMG.CanvasPanelSlot Name="Layout_7"
+ End Object
+ Begin Object Name="Layout_7"
+ LayoutData=(Offsets=(Left=0,Top=0,Right=0,Bottom=0),Anchors=(Minimum=(X=0.38,Y=0.594),Maximum=(X=0.63,Y=0.6599999999999999)))
+ Parent=CanvasPanel'PauseSettings'
+ Content=TextBlock'AudioLabel'
+ End Object
+ Slots(0)=CanvasPanelSlot'Layout_0'
+ Slots(1)=CanvasPanelSlot'Layout_1'
+ Slots(2)=CanvasPanelSlot'Layout_2'
+ Slots(3)=CanvasPanelSlot'Layout_3'
+ Slots(4)=CanvasPanelSlot'Layout_4'
+ Slots(5)=CanvasPanelSlot'Layout_5'
+ Slots(6)=CanvasPanelSlot'Layout_6'
+ Slots(7)=CanvasPanelSlot'Layout_7'
+ Visibility=SelfHitTestInvisible
+End Object
